@@ -1,0 +1,9 @@
+<div>
+    <app-number *ngFor="let num of numArray" [numVal]="num"></app-number>
+</div>
+<br>
+<button class="btn btn-primary" (click)="selectAll()" style="margin-right: 10px;">Select All</button>
+
+<button class="btn btn-primary" (click)="selectOdd()" style="margin-right: 10px;">Select All Odd numbers</button>
+
+<button class="btn btn-primary" (click)="clear()">Clear</button>
